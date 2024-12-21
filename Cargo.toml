@@ -1,0 +1,18 @@
+[package]
+name = "token-stratosphere"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cosmwasm-std = { version = "2.2.0" }  # Keep the version you prefer
+cw-storage-plus = "2.0.0"           # Update this to match compatibility
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+schemars = "0.8"
+thiserror = "1.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[features]
+default = []
