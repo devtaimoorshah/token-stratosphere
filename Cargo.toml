@@ -1,18 +1,25 @@
 [package]
-name = "token-stratosphere"
+name = "stratocoin"
 version = "0.1.0"
 edition = "2021"
 
-[dependencies]
-cosmwasm-std = { version = "2.2.0" }  # Keep the version you prefer
-cw-storage-plus = "2.0.0"           # Update this to match compatibility
-serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
-schemars = "0.8"
-thiserror = "1.0"
-
 [lib]
 crate-type = ["cdylib"]
+
+[dependencies]
+cosmwasm-std = "1.0.0"
+cw-storage-plus = "0.15.0"
+serde = { version = "1.0", default-features = false, features = ["derive"] }
+schemars = "0.8.10"
+thiserror = "1.0"
+cw20-base = { version = "0.13.2", features = ["library"] }
+cw20 = "2.0.0"
+cw-utils = "0.12.1"
+cosmwasm-storage = "1.1.1"
+cosmwasm-schema = "1.1.4"
+prost = "0.12"
+serde_json = "1.0"
+log = "0.4" 
 
 [features]
 default = []

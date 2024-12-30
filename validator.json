@@ -1,0 +1,20 @@
+{
+    "pubkey": {
+      "@type": "/cosmos.crypto.ed25519.PubKey",  
+      "key": "+K4Cqnw5fpVkPXwUTuSNqP79VG8xYJ68Tdsm7nimD8Y="  
+    },
+    "power": "1000000",
+    "name": "stratosphere-validator",
+    "amount": "10000000ustake",  
+    "moniker": "stratosphere-validator",  
+    "identity": "optional-identity-signature",  
+    "website": "optional-website",  
+    "security": "optional-email",  
+    "details": "optional-details",  
+    "commission-rate": "0.10",  
+    "commission-max-rate": "0.20",  
+    "commission-max-change-rate": "0.05",  
+    "min-self-delegation": "1"  
+    
+  }
+  
