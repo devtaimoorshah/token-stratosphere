@@ -267,3 +267,10 @@ Once the contract is deployed, you will receive confirmation messages with the c
 Congratulations! Your CosmWasm contract is now deployed on the DuKong Testnet. You can interact with it via the provided contract address on the blockchain.
 
 For further details and the full code repository, visit [Token-Stratosphere GitHub Repository](https://github.com/devtaimoorshah/token-stratosphere.git).
+
+## Contact Us 📧
+
+If you encounter any issues or need any assistance, feel free to reach out to us:
+
+- Email: [info@techsurge.co.uk](mailto:info@techsurge.co.uk)
+- Phone: +44 7404 925516
